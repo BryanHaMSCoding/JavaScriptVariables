@@ -1,4 +1,4 @@
-//
+/*
 var hello = "world";
 var num = 7;
 var bool = true;
@@ -110,5 +110,35 @@ var ageInDays;
 ageInDays = age * 365;
 
 console.log(ageInDays + " " + "days");
+*/
+
+var temp = 89;
+var conditions = "Sunny";
+var sunRise = "6:14 AM";
+var sunSet = "7:51 PM";
+
+console.log(`It's currently ${conditions} and ${temp}\u00b0F. The sunrise was at ${sunRise} and the predicted sunset is at ${sunSet}.`)
+
+var a = "3";
+var b = "8";
+
+let foo = b;
+b = a
+a = foo;
+console.log(`a is ${a}`);
+console.log(`b is ${b}`);
+
+let firstName = prompt("What is your first name? ");
+let lastName = prompt("What is your last name? ");
+
+console.log(`Your name is ${firstName} ${lastName}!`);
+
+//MadLib
+
+let noun1 = prompt("Enter a noun");
+let verb1 = prompt("Enter a verb");
+let adjective1 = prompt("Enter an adjective");
+
+console.log(`I saw a(n) ${noun1} while ${verb1}ing, it was very ${adjective1}!`)
 
 
