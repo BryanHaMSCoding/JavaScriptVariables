@@ -340,7 +340,7 @@ if (favFruits.includes(fruitToCheck)){
 
 //! Grade Categorizer
 //TODO Define a variable for the grade
-let grade = 89;
+let grade = 90;
 //TODO Categorize the grade
 let gradingScale;
 if (grade >= 90){
@@ -361,7 +361,7 @@ console.log(`The grade ${grade} falls under the grading scale of ${gradingScale}
 
 //! Day of the Week Checker
 //TODO Define an array of days of the week
-let daysOfWeek = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
+let daysOfWeek = ["Mon.", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
 //TODO Define a variable for the day to check
 let dayToCheck = "Mon";
 //TODO Check if the day is a weekday or weekend 
