@@ -184,10 +184,6 @@ let colors = ["red", "blue", "green", "yellow", "purple"];
 //? purple to orange
 //* Output the results
 
-
-
-//!CONDITIONS PROBLEMS
-
 //Creating an array
 let fruits = ["apple","strawberry","cherry","orange"];
 //Variables can work as index nums
@@ -230,9 +226,8 @@ console.log(officeCharacters.length);
 
 let boo = false;
 console.log(boo)
-/*
- "==" - "is equal to"
-*/
+
+ //? "==" - "is loosely equal to"
 let bar = 4 == 5-4;
 console.log(bar);
 
@@ -408,3 +403,25 @@ if (checkNum >= 0){
 //* output the result
 
 console.log(`The number to check is ${checkNum} which is ${checkSign}`);
+
+//? "==" definition: "is loosely equal to"
+let leftNum = 4;
+let rightNum = "4";
+
+console.log(leftNum == rightNum);
+//! TRUE
+
+//? "===" definition: "is strictly equal to"
+console.log(leftNum === rightNum);
+//! FALSE
+
+let password = "UndER28S@#fdd";
+let password2 = "under28s@#fdd";
+
+console.log(password === password2);
+
+//? "const" is a reserved word (ex. let, var, etc.)
+//? what it means "const" = makes your stored information in a variable unchangeable
+
+const myName = "Bryan Ha";
+
